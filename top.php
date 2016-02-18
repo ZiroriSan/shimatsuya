@@ -8,3 +8,5 @@ $tpl->display("top.tpl");
 } catch (Exception $e) {
 	exit($e->getMessage());
 }
+
+return;
